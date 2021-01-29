@@ -1,0 +1,932 @@
+    1  sudo dnf install gnome-tweak-tool
+    2  sudo dnf update
+    3  test -version
+    4  Testfx -version
+    5  ls
+    6  ls -a
+    7  cd .bashrc
+    8  micro
+    9  sudo cp <Ubuntu fonts>.tff /usr/shar/fonts
+   10  ls
+   11  cd Downloads/
+   12  ls
+   13  cd ubuntu-font-family-0.80/
+   14  cp <Ubuntu fonts>.tff /usr/shar/fonts
+   15  cp *.tff /usr/shar/fonts
+   16  cp <Ubuntu fonts>.ttf /usr/shar/fonts
+   17  cp *.ttf /usr/shar/fonts
+   18  ssh root@178.128.6.228
+   19  git
+   20  ls
+   21  cd Documents/
+   22  ls
+   23  git clone git@github.com:catRoman/Test.git
+   24  ssh-keygen -t ed25519 -C "cjroman@lakeheadu.ca"
+   25  eval "$(ssh-agent -s)"
+   26  ssh-add ~/.ssh/id_ed25519
+   27  xclip
+   28  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+   29  ls
+   30  git clone git@github.com:catRoman/Test.git
+   31  ls
+   32  git clone git@github.com:catRoman/winter-semester2021.git
+   33  git clone git@github.com:catRoman/bash.git
+   34  git clone git@github.com:catRoman/coursera.git
+   35  ls
+   36  cd Test
+   37  ls
+   38  git push origin master
+   39  cd ..
+   40  ls
+   41  cd ..
+   42  cd
+   43  ls
+   44  ls -a
+   45  code
+   46  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+   47  sudo sh -c 'echo -e "[code]\nnmae=Visual Studio Code\nbaseurl=http://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+   48  sudo dnf check-update
+   49  sudo dnf install code
+   50  code
+   51  ls
+   52  exit
+   53  who am i
+   54  code
+   55  vi
+   56  who am i
+   57  grep catRoman /etc/passwd
+   58  ksh
+   59  tcsh
+   60  sh
+   61  csh
+   62  dash
+   63  man bash
+   64  date
+   65  pwd
+   66  hostname
+   67  ls
+   68  ls -l -a -t
+   69  ls -lat
+   70  uname
+   71  uname -a
+   72  date +'%d/%m/%y'
+   73  date +'%A, %B %d, %Y;
+   74  date +'%A, %B %d, %Y'
+   75  date +'%A,%B %d,%Y'
+   76  id
+   77  who -uH
+   78  type bash
+   79  type which
+   80  type case
+   81  type return
+   82  type -a which
+   83  type -a case
+   84  type ls
+   85  type -a ls
+   86  echo $PATH
+   87  ls
+   88  ls -a
+   89  cd .local
+   90  ls
+   91  ls -a
+   92  cd
+   93  ls -a
+   94  mkdir bin
+   95  cd Documents/
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd Commands
+  100  ls
+  101  mv * ~/bin
+  102  ls
+  103  cd..
+  104  cd ..
+  105  ls
+  106  cd bin
+  107  ls
+  108  cd ..
+  109  source bin
+  110  Testgrep l lisa
+  111  exit
+  112  dnf search openjdk
+  113  sudo dnf install-latest-openjdk.x86_64
+  114  sudo dnf install Test-latest-openjdk.x86_64
+  115  Testgrep l lisa
+  116  fastpull -a
+  117  fastpull
+  118  fastpush
+  119  Test --version
+  120  sudo dnf search Test
+  121  sudo dnf install Test-lastest-openjdk-devel
+  122  sudo dnf install Test-latest-openjdk-devel
+  123  Testc
+  124  freedoom2
+  125  wrkshp
+  126  liang
+  127  bin
+  128  history | grep .b*
+  129  history | grep \.b*
+  130  history | grep .ba*
+  131  history | grep \.ba*
+  132  history | grep /.ba*
+  133  history | grep .{,1}ba*
+  134  history | grep .ba{,6}
+  135  history | grep .ba{,6}+
+  136  history | grep .b{,6}+
+  137  history | grep b{,6}+
+  138  history | grep b
+  139  history | egrep b{,6}+
+  140  history | egrep b{,6}
+  141  history | egrep b{,3}
+  142  history | egrep b{1,3}
+  143  man
+  144  man 1
+  145  man man
+  146  man man(6)
+  147  man man.6
+  148  man passwd
+  149  man passwdd.5
+  150  man passwd.5
+  151  man passwd.6
+  152  man passwd.2
+  153  man passwd.3
+  154  man passwd.4
+  155  man passwd.5
+  156  man passwd
+  157  locate mount
+  158  locate Testgrep
+  159  cd
+  160  locate Testgrep
+  161  sudo updatedb
+  162  locate Testgrep
+  163  locate fastpush
+  164  locate tracepath
+  165  cat /etc/passwd
+  166  ls $HOME
+  167  date
+  168  cat /etc/group
+  169  less /etc/group
+  170  history
+  171  history | grep ls
+  172  ls
+  173  man ls
+  174  ls -t
+  175  ls -lt
+  176  man date
+  177  date '%m/%d/%y'
+  178  date %m/%d/%y
+  179  date %m//%d//%y
+  180  man date
+  181  date +%m/%d/%y
+  182  basenam /usr/share/doc/
+  183  basename /usr/share/doc/
+  184  cat /etc/services | less
+  185  man date
+  186  echo today is $(date +%A, %B %d, %Y).
+  187  echo today is $(date +'%A, %B %d, %Y').
+  188  echo Today is $(date +'%A, %B %d, %Y').
+  189  echo $HOSTNAME
+  190  echo $USERNAME
+  191  echo $SHELL
+  192  echo $HOME
+  193  echo $USERNAME
+  194  nano .bashrc
+  195  source .bashrc
+  196  mypass
+  197  source .bashrc
+  198  nano .bashrc
+  199  source .bashrc
+  200  mypass
+  201  man mount
+  202  alias
+  203  vim
+  204  man vim
+  205  date
+  206  logout
+  207  exit
+  208  bash fastpush
+  209  cd bin
+  210  fastpush
+  211  bash fastpush
+  212  nan fastpush
+  213  nano fastpush
+  214  nano fastpull
+  215  source *
+  216  fastpush
+  217  fastpush -a
+  218  ls -a
+  219  ls -l
+  220  history
+  221  ls
+  222  fastpush
+  223  source fastpush
+  224  fastpush
+  225  source *
+  226  ls
+  227  fastpull
+  228  Testgrep
+  229  Testgrep l lisa
+  230  nano Testgrep
+  231  cd ..
+  232  cd Documents/Test/liang/chp12
+  233  Testc RegexTester.java
+  234  Testc
+  235  cd Documents/Test/liang/chp12
+  236  Testc RegexTester.java
+  237  Test RegexTester
+  238  Test RegexTester l lisa
+  239  cd ~/bin
+  240  source Testgrep
+  241  Testgrep l lisa
+  242  L
+  243  locate Testgrep
+  244  locate ls
+  245  locate
+  246  locate chage
+  247  chage
+  248  locate
+  249  man locate
+  250  locate RegexTester.Test
+  251   cd
+  252  locate RegexTester.Test
+  253  sudo locate chage
+  254  locate
+  255  update locate
+  256  sudo dnf locate
+  257  sudo updatedb
+  258  locate Testgrep
+  259  locate chage
+  260  locate RegexTester.Test
+  261  man updatedb
+  262  locate chage
+  263  updatedb
+  264  sudo updatedb
+  265  locate chage
+  266  locate RegexTester.Test
+  267  history
+  268  head history
+  269  ls /usr/bin | sort -f | less
+  270  doom
+  271  sudo dnf search doom
+  272  sudo dnf install freedoom2.noarch
+  273  freedoom2
+  274  man freedoom2
+  275  sudo dnf search wolfenstien
+  276  rythmbox-client play
+  277  rhtyhmbox-client play
+  278  rhythmbox-client play
+  279  man rhythembox
+  280  hembox-client
+  281  p
+  282  ls /usr/bin | sort -f | less
+  283  hist
+  284  histTestgrep
+  285  istTestgrep
+  286  cd
+  287  ls -a
+  288  nano .bashrc
+  289  source .bashrc
+  290  nano .bashrc
+  291  echo $OS<Tab>
+  292  echo $OSTYPE 
+  293  cd ~root/
+  294  usermod 
+  295  xset b off
+  296  man xset
+  297  xset -b off
+  298  xset -b --off
+  299  xset 
+  300  term
+  301  ech $TERM
+  302  echo $TERM
+  303  time
+  304  echo time
+  305  date
+  306  alias
+  307  echo $HOSTTYPE
+  308  echo $MAIL
+  309  nano $HOME/.bashrc
+  310  cd Documents/
+  311  ls
+  312  nano $HOME/.bashrc
+  313  ls
+  314  mv Documents toBeSorted/
+  315  ls
+  316  cd toBeSorted/
+  317  ls
+  318  cd ..
+  319  ls
+  320  cd bash
+  321  ls
+  322  nano $HOME/.bashrc
+  323  ls
+  324  cd
+  325  source .bashrc
+  326  school
+  327  bash
+  328  cd
+  329  exit
+  330  Testgrep l lisa
+  331  restart
+  332  javgrep l lisa
+  333  Testgrep l lisa
+  334  man Test
+  335  echo $PATH
+  336  fastpush
+  337  source $PATH
+  338  fastpush
+  339  source ~/bin
+  340  source ~/bin/*
+  341  fastpush
+  342  Testgrep
+  343  bash
+  344  exit
+  345  set bell-style none
+  346  sudo rmmod pcspkr
+  347  Testgrep l lisa
+  348  cd bin
+  349  source *
+  350  Testgrep l lisa
+  351  ls
+  352  fastpull
+  353  nano Testgep
+  354  L
+  355  ls
+  356  nano Testgrep
+  357  L
+  358  source Testgrep
+  359  Testgrep l lisa
+  360  cd
+  361  cd Documents/
+  362  ls
+  363  cd Test
+  364  ls
+  365  cd liang
+  366  ls
+  367  cd
+  368  cd bin
+  369  nano Testgrep
+  370  Testgrep l lisa
+  371  cd 
+  372  cd Documents/
+  373  cd Test
+  374  ls
+  375  cd liang
+  376  cd chp12
+  377  ls
+  378  ls Reg*
+  379  ~/bin
+  380  cd ~/bin
+  381  ls
+  382  cat javgrep
+  383  cat Testgrep
+  384  cd -
+  385  pwd
+  386  cd -
+  387  cat Testgrep
+  388  testgrep
+  389  javgrep
+  390  Testgrep
+  391  cd -
+  392  Test RegexTester l lisa
+  393  pwd
+  394  man Test
+  395  Test --version
+  396  yum Test
+  397  jvav update
+  398  Test update
+  399  update Test
+  400  cd
+  401  nano .bashrc 
+  402  source .bashrc
+  403  wrkshp
+  404  mkdir linuxBible
+  405  cd linuxBible/
+  406  mkdir test
+  407  L
+  408  ls -ld test
+  409  chmod 700 test
+  410  ls -ld test
+  411  touch apple banane grape grapefruit watermelon
+  412  ls
+  413  rm apple banane grape grapefruit watermelon
+  414  ls
+  415  cd test
+  416  touch apple banane grape grapefruit watermelon
+  417  ls
+  418  mv banane banana
+  419  ls
+  420  ls a*
+  421  ls g*
+  422  ls g*t
+  423  ls *e*
+  424  ls *n*
+  425  ls ????e
+  426  ls g???e*
+  427  ls [abw]*
+  428  ls [agw]*[ne]
+  429  la [a-g]*
+  430  a [a-g]*
+  431  ls [a-g]*
+  432  mail root < ~/.bashrc
+  433  man chmod | col -b > /tmp/chmod
+  434  ls
+  435  echo "i finished the project on $(date)" >> apple
+  436  cat apple
+  437  less /tmp/chmod
+  438  mail root test << the text
+  439  jhgjhgh
+  440  klhkl
+  441  lhlk
+  442  lkjhkljh
+  443  the text
+  444  the
+  445  echo >> apple << end
+  446  this is a test
+  447  to see if this work
+  448  ok then
+  449  byebye
+  450  end
+  451  cat apple
+  452  echo << end >> apple
+  453  this is another test
+  454  this is the secpond line of the test
+  455  ok then
+  456  bybye
+  457  end
+  458  cat apple
+  459  echo | << end >> apple
+  460  this is another test
+  461  this is the secpond line of the test
+  462  ok then
+  463  bybye
+  464  end
+  465  cat apple
+  466  echo << end | >> apple
+  467  this is another test
+  468  this is the secpond line of the test
+  469  ok then
+  470  bybye
+  471  end
+  472  cat apple
+  473  echo this is a test/
+  474  echo this is a testto see if it hsappens\\
+  475  echo this is a testto see if it hsappens\ to write howilikeit>> apple
+  476  cat apple
+  477  touch memo{1-5}
+  478  ls
+  479  touch memo{1,2,3,4,5}
+  480  ls
+  481  rm memo{1-5}
+  482  ls
+  483  touch {a..f}{1..5}
+  484  ls
+  485  rm {a..f}{1..5}
+  486  ls
+  487  alias ls
+  488  touch scriptx.sh
+  489  touch apple
+  490  ls
+  491  chmod 755 scriptx.sh
+  492  ls
+  493  mkdir stuff
+  494  ln -s apple pointer_to_apple
+  495  ls
+  496  rm memo{1..5}
+  497  ls
+  498  rm banana grape grapefruit
+  499  ls
+  500  ls -l
+  501  rm watermelon
+  502  ls -l
+  503  ls -la /home/catRoman
+  504  ls ~
+  505  cd
+  506  cd Commands
+  507  ls
+  508  cd
+  509  rm Commands
+  510  rmdir Commands
+  511  ls
+  512  cd bash/
+  513  ls
+  514  cd Documents//bash/linuxBible/
+  515  ls -la /home/catRoman
+  516  ls -a
+  517  cd test
+  518  ls -a
+  519  ls -at
+  520  touch banana grape grapefruit watermelon
+  521  ls
+  522  ls -F
+  523  ls --dide=g*
+  524  ls --hide=g*
+  525  ls
+  526  ls --hide=g*
+  527  ls -ld $HOME/bash/linuxBible/test
+  528  ls -ld \$HOME/Documents/bash/linuxBible/test
+  529  ls -ld $HOME/Documents/bash/linuxBible/test
+  530  mkdir -p  $HOME/Documents/bash/linuxBible/test/memos
+  531  ls
+  532  rmdir memos
+  533  ls
+  534  mkdir -p  $HOME/Documents/bash/linuxBible/test/docs/memos
+  535  ls
+  536  rmdir if docs
+  537  rmdir -f docs
+  538  rmdir - docs
+  539  rmdir -r docs
+  540  rm -rf docs
+  541  ls
+  542  mkdir  $HOME/Documents/bash/linuxBible/test/docs/memos
+  543  mkdir -p $HOME/Documents/bash/linuxBible/test/docs/memos
+  544  ls -f
+  545  ls -F
+  546  ls
+  547  ls -R
+  548  ls -S
+  549  ls -lS
+  550  ls -ls
+  551  ls -lSR
+  552  ls -ld
+  553  ls
+  554  chmod 777 apple
+  555  chmod 755 banana
+  556  chmod 644 grape
+  557  chmod 000 watermelon
+  558  ls -l
+  559  cat watermelon
+  560  nano watermelon
+  561  ls -l
+  562  pointer_to_apple
+  563  echo hi >> pointer_to_apple
+  564  cat apple
+  565  chmod 777 watermelon 
+  566  ls -l
+  567  chmod a-w watermelon
+  568  ls -l w*
+  569  chmod o-x watermelon
+  570  ls -l w*
+  571  chmod a-
+  572  chmod a-rwx
+  573  chmod a- watermelon
+  574  ls -l w*
+  575  chmod agou- watermelon
+  576  ls -l w*
+  577  chmod a-rwx w*
+  578  ls -l w*
+  579  chmod u+rw w*
+  580  ls -l w*
+  581  chmod ug+rx w*
+  582  ls -l w*
+  583  unmask
+  584  umask
+  585  umask 777 docs/sevenMemo{1..7} ; umask 000 docs/zeroMemo{1..5}
+  586  ls
+  587  cd docs/
+  588  ls
+  589  cd..
+  590  cd ..
+  591  umask 777 touch docs/sevenMemo{1..7} ; mkdir sevenDir ; umask 000 touch docs/zeroMemo{1..5} ; mkdir zeroDir
+  592  ls
+  593  cd zeroDir/
+  594  ls
+  595  cd ..
+  596  ls -l
+  597  cd docs
+  598  ls -l
+  599  cd
+  600  pwd
+  601  cd Documents/
+  602  cd bash
+  603  cd linuxBible/
+  604  ls
+  605  cd test
+  606  ls
+  607  cd docs
+  608  ls
+  609  ls -al
+  610  cd memos
+  611  ls -a
+  612  cd ../..
+  613  ls -l
+  614  sudo chown catRoman grape
+  615  ls -a
+  616  ls -la
+  617  cd docs
+  618  cd memos
+  619  ls
+  620  touch memo.txt
+  621  ls
+  622  rm memo.txt
+  623  ls
+  624  sudo touch memo.txt
+  625  ls -la
+  626  sudo chown catRoman memo.txt
+  627  ls -la
+  628  sudo catRoman:catRoman memo.txt
+  629  sudo chown catRoman:catRoman memo.txt
+  630  ls -la
+  631  alias mv
+  632  cd
+  633  nano .bashrc
+  634  cd -
+  635  ls
+  636  cd ..
+  637  ls
+  638  touch memo.txt
+  639  mv memo.txt memos/memo.txt
+  640  ls
+  641  touch memo.txt
+  642  cd
+  643  source .bashrc
+  644  cd -
+  645  mv memo.txt memos/memo.txt
+  646  cd
+  647  nano .bashrc
+  648  source .bashrc
+  649  cd -
+  650  ls
+  651  cd memos
+  652  ls
+  653  cp memo.txt ..
+  654  cd
+  655  nano .bashrc
+  656  cd -
+  657  ls
+  658  cd ..
+  659  ls
+  660  rm memo.txt
+  661  ls
+  662  rm memos
+  663  cd memos
+  664  touch memo{2..5}.txt
+  665  ls
+  666  rm -r
+  667  rm -r memo2.txt
+  668  rm *
+  669  ls
+  670  touch memo{1..5}.txt
+  671  cd
+  672  source .basherc
+  673  source .bashrc
+  674  cd -
+  675  rm memo1.txt
+  676  cd ..
+  677  rm memos
+  678  cd memos
+  679  cd ..
+  680  ls
+  681  rm -r memos
+  682  ls
+  683  cd memos
+  684  touch memo{1..100}.txt
+  685  ls
+  686  cd ..
+  687  rm -rf memos
+  688  ls
+  689  cd ..
+  690  mkdir projects
+  691  cd projects/
+  692  touch house{1..9}
+  693  ls h*[1-9]
+  694  mkdir - p /houses/doors
+  695  mkdir -p /houses/doors
+  696  ls
+  697  rmdir -
+  698  ls
+  699  rmdir p
+  700  ls
+  701  umask
+  702  umask 0002
+  703  ls
+  704  umask
+  705  umask 770
+  706  umask
+  707  ls -l
+  708  touch test
+  709  ls t*
+  710  ls -l t*
+  711  umask 0000
+  712  touch test2
+  713  ls -l t*
+  714  mkdir test
+  715  mkdir test3
+  716  ls -l t*
+  717  cd ..
+  718  ls -l
+  719  umask 022
+  720  cd linuxBible/
+  721  ls
+  722  chmod 772 projects
+  723  ls
+  724  ls -l
+  725  chmod 700 projects
+  726  ls
+  727  ls -l
+  728  cd projects/
+  729  ls -l
+  730  rm t*
+  731  rmdir t*
+  732  ls
+  733  ls -a
+  734  mkdir -p /houses/doors/
+  735  ls -l
+  736  umask
+  737  00022
+  738  less history
+  739  history | less
+  740  umask 755
+  741  ls
+  742  mkdir -p /houses/doors/
+  743  cd ..
+  744  ls
+  745  chmod 755 projects
+  746  umask 0022
+  747  ls -l
+  748  cd projects
+  749  mkdir -p /houses/doors/
+  750  sudo mkdir -p /houses/doors/
+  751  ls -r
+  752  ls -R
+  753  ls
+  754  ls -a
+  755  cd  /houses
+  756  pwd
+  757  cd ..
+  758  ls
+  759  rm houses
+  760  rm -rf houses
+  761  sudo rm -rf houses
+  762  ls
+  763  cd -
+  764  wrkshp
+  765  cd linuxBible/
+  766  cd projects/
+  767  mkdir -p houses/doors
+  768  ls
+  769  touch houses/bungalow.txt houses/doors/bifold.txt ; mkdir -p outdoors/vegtaation ; touch outdoors/vegatation/landscape.txt
+  770  mv outdoors/vegtaation outdoors/vegatation
+  771  touch outdoors/vegatation/landscape.txt
+  772  ls -R
+  773  mv h*[15] houses
+  774  ls
+  775  cd houses
+  776  ls
+  777  cd ..
+  778  cp -r /usr/share/doc/initscripts/*
+  779  cp -r /usr/share/doc/initscripts* .
+  780  ls
+  781  cd initscripts/
+  782  ls
+  783  cd ..
+  784  ls -R | less
+  785  ls
+  786  /rm h*[67]
+  787  ls
+  788  \rm h*[67]
+  789  ls
+  790  rm h*8
+  791  mv h*[34] houses/doors
+  792  cd houses/doors
+  793  ls
+  794  cd ....
+  795  cd ../..
+  796  rm -rf houses/doors
+  797  ls -R
+  798  chmod 620 h*2
+  799  ls -l
+  800  chmod 640 h*2
+  801  ls -l
+  802  chmod -r  000
+  803  cd ..
+  804  chmod -R projects/
+  805  chmod -R projects/*
+  806  chmod -R 000 projects/
+  807  chmod -R 000 projects
+  808  ls -l
+  809  chmod 755 projects
+  810  ls
+  811  ls -l
+  812  chmod -R 000 projects
+  813  ls -la
+  814  chmod projects
+  815  chmod 755 projects
+  816  chmod -R 000 projects/*
+  817  cd porojects
+  818  cd projects/
+  819  ls
+  820  ls -l
+  821  Testgrep l lisa
+  822  fastpull
+  823  ls
+  824  vi house2
+  825  ls -l
+  826  cd ..
+  827  ls -l
+  828  chmod -R 755 projects
+  829  ls
+  830  ls -a
+  831  ls -l
+  832  cd projects/
+  833  ls
+  834  cd initscripts/
+  835  ls
+  836  cd ../..
+  837  tail history
+  838  history 10
+  839  history 25
+  840  chmod -R a+rw projects/
+  841  cd projects/
+  842  ls
+  843  ls -l
+  844  cd ..
+  845  chmod -R a-x projects/
+  846  cd -
+  847  cd projects/
+  848  ls -l
+  849  chmod a+x projects
+  850  ls
+  851  ls -a
+  852  ls -l
+  853  cd projects/
+  854  ls
+  855  ls -l
+  856  cd ..
+  857  cd
+  858  ls -l
+  859  cd -
+  860  chmod 700 projects
+  861  chmod go-w projects
+  862  ls
+  863  ls -l
+  864  chmod go-rw projects
+  865  chmod go+rw projects
+  866  ls
+  867  ls -l
+  868  chmod 700 projects
+  869  chmod go+rx projects
+  870  ls
+  871  ls -l
+  872  chmod -R 755 projects
+  873  ls -l
+  874  cd projects/
+  875  ls
+  876  chmod a-x h*[0-9]
+  877  ls -l
+  878  cd ..
+  879  cd projects/
+  880  ls
+  881  ls -R
+  882  chmod a-x initscripts/
+  883  chmod a-x houses
+  884  chmod a-x vegatation
+  885  ls
+  886  chmod a-x outdoors
+  887  ls
+  888  ls -R
+  889  ls -lR
+  890  chmod a+x houses initiscripts outdoors
+  891  chmod a+x houses initscripts outdoors
+  892  ls -lR
+  893  chmod -R a-x houses initscripts outdoors
+  894  ls
+  895  ls -l
+  896  chmod a+x houses initscripts outdoors
+  897  ls -l
+  898  chmod -R a-x houses initscripts outdoors
+  899  ls -l
+  900  chmod a+x houses initscripts outdoors
+  901  ls -l
+  902  chmod a+x houses
+  903  ls -l
+  904  chmod -R a-x houses
+  905  ls -l
+  906  chmod a+x houses
+  907  chmod -R a-x ./houses
+  908  chmod a+x houses
+  909  chmod -R a-x houses/*
+  910  cd houses
+  911  ls -l
+  912  cd ..
+  913  chmod -R a-x outdoors/vegatation/*
+  914  chmod -R a-x doors
+  915  ls
+  916  chmod -R a-x initscripts/*
+  917  ls -lR
+  918  cd initscripts/
+  919  cat sysconfig.txt 
+  920  less sysconfig.txt 
+  921  exit
+  922  wrkshp
+  923  ls
+  924  cd linuxBible/
+  925  ls
+  926  cd projects
+  927  ls
+  928  vi house2
+  929  vi vitest
+  930  cp /var/log/messages 
+  931  cp /var/log/messages longFile
+  932  history > longFile
